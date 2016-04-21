@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE744A0E1C10B29C009839E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE744A0D1C10B29C009839E8 /* AppDelegate.swift */; };
+		CE744A101C10B29C009839E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE744A0F1C10B29C009839E8 /* ViewController.swift */; };
+		CE744A121C10B29C009839E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE744A111C10B29C009839E8 /* Assets.xcassets */; };
+		CE744A151C10B29C009839E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE744A131C10B29C009839E8 /* Main.storyboard */; };
+		CE744A201C10B29D009839E8 /* JSON_Swifty_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE744A1F1C10B29D009839E8 /* JSON_Swifty_macTests.swift */; };
+		CE744A2B1C10B29D009839E8 /* JSON_Swifty_macUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE744A2A1C10B29D009839E8 /* JSON_Swifty_macUITests.swift */; };
+		CE744A391C10B5F3009839E8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE744A381C10B5F3009839E8 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE744A1C1C10B29D009839E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE744A021C10B29C009839E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE744A091C10B29C009839E8;
+			remoteInfo = "JSON Swifty mac";
+		};
+		CE744A271C10B29D009839E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE744A021C10B29C009839E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE744A091C10B29C009839E8;
+			remoteInfo = "JSON Swifty mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE744A0A1C10B29C009839E8 /* JSON Swifty mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Swifty mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE744A0D1C10B29C009839E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE744A0F1C10B29C009839E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE744A111C10B29C009839E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE744A141C10B29C009839E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE744A161C10B29C009839E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE744A1B1C10B29D009839E8 /* JSON Swifty macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSON Swifty macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE744A1F1C10B29D009839E8 /* JSON_Swifty_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_Swifty_macTests.swift; sourceTree = "<group>"; };
+		CE744A211C10B29D009839E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE744A261C10B29D009839E8 /* JSON Swifty macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSON Swifty macUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE744A2A1C10B29D009839E8 /* JSON_Swifty_macUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_Swifty_macUITests.swift; sourceTree = "<group>"; };
+		CE744A2C1C10B29D009839E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE744A381C10B5F3009839E8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE744A071C10B29C009839E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE744A181C10B29D009839E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE744A231C10B29D009839E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE744A011C10B29C009839E8 = {
+			isa = PBXGroup;
+			children = (
+				CE744A0C1C10B29C009839E8 /* JSON Swifty mac */,
+				CE744A1E1C10B29D009839E8 /* JSON Swifty macTests */,
+				CE744A291C10B29D009839E8 /* JSON Swifty macUITests */,
+				CE744A0B1C10B29C009839E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE744A0B1C10B29C009839E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE744A0A1C10B29C009839E8 /* JSON Swifty mac.app */,
+				CE744A1B1C10B29D009839E8 /* JSON Swifty macTests.xctest */,
+				CE744A261C10B29D009839E8 /* JSON Swifty macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE744A0C1C10B29C009839E8 /* JSON Swifty mac */ = {
+			isa = PBXGroup;
+			children = (
+				CE744A0D1C10B29C009839E8 /* AppDelegate.swift */,
+				CE744A381C10B5F3009839E8 /* SwiftyJSON.swift */,
+				CE744A0F1C10B29C009839E8 /* ViewController.swift */,
+				CE744A111C10B29C009839E8 /* Assets.xcassets */,
+				CE744A131C10B29C009839E8 /* Main.storyboard */,
+				CE744A161C10B29C009839E8 /* Info.plist */,
+			);
+			path = "JSON Swifty mac";
+			sourceTree = "<group>";
+		};
+		CE744A1E1C10B29D009839E8 /* JSON Swifty macTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE744A1F1C10B29D009839E8 /* JSON_Swifty_macTests.swift */,
+				CE744A211C10B29D009839E8 /* Info.plist */,
+			);
+			path = "JSON Swifty macTests";
+			sourceTree = "<group>";
+		};
+		CE744A291C10B29D009839E8 /* JSON Swifty macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE744A2A1C10B29D009839E8 /* JSON_Swifty_macUITests.swift */,
+				CE744A2C1C10B29D009839E8 /* Info.plist */,
+			);
+			path = "JSON Swifty macUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE744A091C10B29C009839E8 /* JSON Swifty mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE744A2F1C10B29D009839E8 /* Build configuration list for PBXNativeTarget "JSON Swifty mac" */;
+			buildPhases = (
+				CE744A061C10B29C009839E8 /* Sources */,
+				CE744A071C10B29C009839E8 /* Frameworks */,
+				CE744A081C10B29C009839E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSON Swifty mac";
+			productName = "JSON Swifty mac";
+			productReference = CE744A0A1C10B29C009839E8 /* JSON Swifty mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE744A1A1C10B29D009839E8 /* JSON Swifty macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE744A321C10B29D009839E8 /* Build configuration list for PBXNativeTarget "JSON Swifty macTests" */;
+			buildPhases = (
+				CE744A171C10B29D009839E8 /* Sources */,
+				CE744A181C10B29D009839E8 /* Frameworks */,
+				CE744A191C10B29D009839E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE744A1D1C10B29D009839E8 /* PBXTargetDependency */,
+			);
+			name = "JSON Swifty macTests";
+			productName = "JSON Swifty macTests";
+			productReference = CE744A1B1C10B29D009839E8 /* JSON Swifty macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE744A251C10B29D009839E8 /* JSON Swifty macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE744A351C10B29D009839E8 /* Build configuration list for PBXNativeTarget "JSON Swifty macUITests" */;
+			buildPhases = (
+				CE744A221C10B29D009839E8 /* Sources */,
+				CE744A231C10B29D009839E8 /* Frameworks */,
+				CE744A241C10B29D009839E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE744A281C10B29D009839E8 /* PBXTargetDependency */,
+			);
+			name = "JSON Swifty macUITests";
+			productName = "JSON Swifty macUITests";
+			productReference = CE744A261C10B29D009839E8 /* JSON Swifty macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE744A021C10B29C009839E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Kent_Drescher;
+				TargetAttributes = {
+					CE744A091C10B29C009839E8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CE744A1A1C10B29D009839E8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CE744A091C10B29C009839E8;
+					};
+					CE744A251C10B29D009839E8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CE744A091C10B29C009839E8;
+					};
+				};
+			};
+			buildConfigurationList = CE744A051C10B29C009839E8 /* Build configuration list for PBXProject "JSON Swifty mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE744A011C10B29C009839E8;
+			productRefGroup = CE744A0B1C10B29C009839E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE744A091C10B29C009839E8 /* JSON Swifty mac */,
+				CE744A1A1C10B29D009839E8 /* JSON Swifty macTests */,
+				CE744A251C10B29D009839E8 /* JSON Swifty macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE744A081C10B29C009839E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE744A121C10B29C009839E8 /* Assets.xcassets in Resources */,
+				CE744A151C10B29C009839E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE744A191C10B29D009839E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE744A241C10B29D009839E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE744A061C10B29C009839E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE744A391C10B5F3009839E8 /* SwiftyJSON.swift in Sources */,
+				CE744A101C10B29C009839E8 /* ViewController.swift in Sources */,
+				CE744A0E1C10B29C009839E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE744A171C10B29D009839E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE744A201C10B29D009839E8 /* JSON_Swifty_macTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE744A221C10B29D009839E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE744A2B1C10B29D009839E8 /* JSON_Swifty_macUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE744A1D1C10B29D009839E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE744A091C10B29C009839E8 /* JSON Swifty mac */;
+			targetProxy = CE744A1C1C10B29D009839E8 /* PBXContainerItemProxy */;
+		};
+		CE744A281C10B29D009839E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE744A091C10B29C009839E8 /* JSON Swifty mac */;
+			targetProxy = CE744A271C10B29D009839E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE744A131C10B29C009839E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE744A141C10B29C009839E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE744A2D1C10B29D009839E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE744A2E1C10B29D009839E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE744A301C10B29D009839E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON Swifty mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kent-drescher.JSON-Swifty-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE744A311C10B29D009839E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON Swifty mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kent-drescher.JSON-Swifty-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE744A331C10B29D009839E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON Swifty macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kent-drescher.JSON-Swifty-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON Swifty mac.app/Contents/MacOS/JSON Swifty mac";
+			};
+			name = Debug;
+		};
+		CE744A341C10B29D009839E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON Swifty macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kent-drescher.JSON-Swifty-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON Swifty mac.app/Contents/MacOS/JSON Swifty mac";
+			};
+			name = Release;
+		};
+		CE744A361C10B29D009839E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON Swifty macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kent-drescher.JSON-Swifty-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JSON Swifty mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE744A371C10B29D009839E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON Swifty macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kent-drescher.JSON-Swifty-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JSON Swifty mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE744A051C10B29C009839E8 /* Build configuration list for PBXProject "JSON Swifty mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE744A2D1C10B29D009839E8 /* Debug */,
+				CE744A2E1C10B29D009839E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE744A2F1C10B29D009839E8 /* Build configuration list for PBXNativeTarget "JSON Swifty mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE744A301C10B29D009839E8 /* Debug */,
+				CE744A311C10B29D009839E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE744A321C10B29D009839E8 /* Build configuration list for PBXNativeTarget "JSON Swifty macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE744A331C10B29D009839E8 /* Debug */,
+				CE744A341C10B29D009839E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE744A351C10B29D009839E8 /* Build configuration list for PBXNativeTarget "JSON Swifty macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE744A361C10B29D009839E8 /* Debug */,
+				CE744A371C10B29D009839E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE744A021C10B29C009839E8 /* Project object */;
+}
